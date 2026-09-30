@@ -1,0 +1,21 @@
+{
+  "name": "chatgpt-uewp",
+  "version": "0.0.1",
+  "description": "ChatGPT 优化增强",
+  "author": "k34869",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "nub@0.9.2",
+  "devEngines": {
+    "packageManager": {
+      "name": "nub",
+      "version": "^0.9.2",
+      "onFail": "ignore"
+    }
+  },
+  "scripts": {
+    "build": "uewp",
+    "dev": "uewp dev -w",
+    "docs": "uewp docs"
+  }
+}

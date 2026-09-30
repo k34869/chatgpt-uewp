@@ -1,0 +1,19 @@
+.contents h1 {
+  color: #729a32;
+}
+
+.contents h2,
+.contents h3,
+.contents h4 {
+  color: #729a32;
+}
+
+.contents strong {
+  color: #eeb651;
+  padding: 0 8px;
+  border-radius: 5px;
+}
+
+.contents blockquote::after {
+  background-color: #eeb651;
+}
